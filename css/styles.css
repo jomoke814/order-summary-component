@@ -54,7 +54,19 @@ h2 {
 
 .price {
     display: flex;
-    gap: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 50px;
+}
+
+.price:hover {
+    background-color: var(--main-hover-color);
+}
+
+.section-price {
+    display: flex;
+    gap: 10px;
+
 }
 
 .para-price {
@@ -90,4 +102,11 @@ button:hover {
     color: hsl(228, 45%, 44%);
     font-size: 11px;
     text-align: center;
+}
+
+/* media query */
+@media(max-width: 768px) {
+    body {
+        background-image: url(../images/pattern-background-mobile.svg);
+    }
 }
