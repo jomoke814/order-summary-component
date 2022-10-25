@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-heading-color: hsl(223, 47%, 23%);
+    --main-text-color: hsl(224, 23%, 55%);
+    --main-card-bg-color: hsl(225, 100%, 98%);
+    --main-btn-color: hsl(245, 75%, 52%);
+    --main-hover-color: hsl(225, 100%, 94%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/pattern-background-desktop.svg');
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+h1 {
+    color: var(--main-heading-color);
+}
+
+h2 {
+    color: var(--main-heading-color);
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 30px;
+}
+
+.order-card {
+    display: grid;
+    grid-template-columns: 350px;
+    background-color: var(--main-card-bg-color);
+    border-radius: 10px;
+    color: var(--main-text-color);
+    overflow: hidden;
+    text-align: center;
+    justify-items: center;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.price {
+    display: flex;
+    gap: 30px;
+}
+
+.para-price {
+    text-decoration: underline;
+    color: var(--main-btn-color);
+}
+
+.para-price:hover {
+    color: hsl(228, 45%, 44%);
+    cursor: pointer;
+}
+
+button {
+    color: var(--main-card-bg-color);
+    background-color: var(--main-btn-color);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90%;
+}
+
+.para:hover {
+    color: var(--main-heading-color);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(228, 45%, 44%);
+    cursor: pointer;
+}
+
+.attribution {
+    color: hsl(228, 45%, 44%);
+    font-size: 11px;
+    text-align: center;
+}
