@@ -12,8 +12,8 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 ### Links preview
-- Live site:
-- Solution URL:
+- Live site: https://jomoke814.github.io/order-summary-component/
+- Solution URL: https://github.com/jomoke814/order-summary-component
 
 ### Desired Outcome screenshot
 - Desktop and Mobile: 
