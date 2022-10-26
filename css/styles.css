@@ -20,6 +20,8 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url('../images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: var(--main-price-hover-color);
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
     line-height: 1.2;
